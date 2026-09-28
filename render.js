@@ -10,7 +10,6 @@ function createCard(project) {
   const screenshot = document.createElement("img");
   screenshot.src = project.screenshot;
   screenshot.alt = `screenshot of the ${title} project`;
-  screenshot.width = 300; //sets width in pixels, consider moving to CSS doc in future
 
   const desc = document.createElement("p");
   desc.textContent = project.description;
