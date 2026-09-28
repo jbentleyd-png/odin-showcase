@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+
+#foundations-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: rgb(96, 53, 137);
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px;
+  color: white;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.card img {
+  margin-bottom: 15px;
+}
+
+.card a {
+  color: white;
+  margin: 3px;
+}
