@@ -12,3 +12,14 @@ header {
   padding: 0 40px;
   margin-bottom: 50px;
 }
+
+#demo-video {
+  max-width: 1080px;
+}
+
+#demo-description {
+  max-width: 1200px;
+  place-self: center;
+  font-size: larger;
+  margin-top: 35px;
+}
