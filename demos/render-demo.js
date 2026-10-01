@@ -9,6 +9,9 @@ function renderDemoPage(selectedDemo) {
   video.src = selectedDemo.video;
   video.alt = `A screencaptured video demonstrating the ${selectedDemo.title} project.`;
 
+  const link = document.querySelector("#github");
+  link.href = selectedDemo.github;
+
   const description = document.querySelector("#demo-description");
   description.textContent = selectedDemo.description;
 }
