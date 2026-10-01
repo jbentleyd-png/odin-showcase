@@ -17,7 +17,7 @@ main h1 {
   margin-bottom: 27px;
 }
 
-#foundations-list {
+[id$="-list"] {
   display: flex;
   flex-wrap: wrap;
 

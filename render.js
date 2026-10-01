@@ -44,3 +44,6 @@ function renderProjects(category, containerId) {
 }
 
 renderProjects("foundations", "foundations-list");
+renderProjects("ruby", "ruby-list");
+renderProjects("intermediate", "intermediate-list");
+renderProjects("rails", "rails-list");
