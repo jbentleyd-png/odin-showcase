@@ -10,18 +10,24 @@ header {
   align-items: center;
   box-sizing: border-box;
   padding: 0 40px;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 main h1 {
-  margin-bottom: 27px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.foundations-header {
+  margin-top: 50px;
 }
 
 [id$="-list"] {
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: center;
   gap: 20px;
+  padding: 0; /* override default padding settings from ul */
 }
 
 .card {

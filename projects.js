@@ -161,4 +161,22 @@ export const projects = [
     repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
     category: "ruby",
   },
+
+  // INTERMEDIATE HTML & CSS:
+  {
+    name: "Sign-Up Form",
+    screenshot: "./screenshots/intermediate/placeholder.png",
+    description: "Explanation, please.",
+    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
+    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    category: "intermediate",
+  },
+  {
+    name: "Admin Dashboard",
+    screenshot: "./screenshots/intermediate/placeholder.png",
+    description: "Explanation, please.",
+    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
+    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    category: "intermediate",
+  },
 ];
