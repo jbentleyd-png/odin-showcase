@@ -1,5 +1,8 @@
 import { projects } from "./projects.js";
 
+const demoProjects = [];
+const demoCourses = ["ruby"];
+
 function createCard(project) {
   const li = document.createElement("li");
   li.className = "card";
@@ -16,7 +19,14 @@ function createCard(project) {
 
   const live = document.createElement("a");
   live.href = project.liveUrl;
-  live.textContent = "Live Site";
+  if (
+    demoCourses.includes(project.category) ||
+    demoProjects.includes(project.name)
+  ) {
+    live.textContent = "Demo Page";
+  } else {
+    live.textContent = "Live Site";
+  }
 
   const repo = document.createElement("a");
   repo.href = project.repoUrl;
