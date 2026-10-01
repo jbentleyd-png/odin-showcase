@@ -1,5 +1,5 @@
 export const projects = [
-  //FOUNDATIONS:
+  // FOUNDATIONS:
   {
     name: "Recipes Site",
     screenshot: "./screenshots/foundations/odin-recipes.png",
@@ -40,6 +40,7 @@ export const projects = [
     repoUrl: "https://github.com/jbentleyd-png/calculator",
     category: "foundations",
   },
+
   // RUBY:
   {
     name: "Caesar Cipher",
@@ -165,18 +166,18 @@ export const projects = [
   // INTERMEDIATE HTML & CSS:
   {
     name: "Sign-Up Form",
-    screenshot: "./screenshots/intermediate/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    screenshot: "./screenshots/intermediate/form.png",
+    description: "Using CSS variables to make light/dark modes on a form.",
+    liveUrl: "https://jbentleyd-png.github.io/form_practice/",
+    repoUrl: "https://github.com/jbentleyd-png/form_practice",
     category: "intermediate",
   },
   {
     name: "Admin Dashboard",
-    screenshot: "./screenshots/intermediate/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    screenshot: "./screenshots/intermediate/dashboard.png",
+    description: "Using CSS grid to create a dashboard layout.",
+    liveUrl: "https://jbentleyd-png.github.io/dashboard_practice/",
+    repoUrl: "https://github.com/jbentleyd-png/dashboard_practice",
     category: "intermediate",
   },
 ];
