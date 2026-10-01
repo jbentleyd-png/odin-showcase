@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "Recipes Site",
-    screenshot: "./screenshots/odin-recipes.png",
+    screenshot: "./screenshots/foundations/odin-recipes.png",
     description: "Basic HTML static site showcasing 3 recipes.",
     liveUrl: "https://jbentleyd-png.github.io/odin-recipes/index.html",
     repoUrl: "https://github.com/jbentleyd-png/odin-recipes",
@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     name: "Landing Page",
-    screenshot: "./screenshots/landing-page.png",
+    screenshot: "./screenshots/foundations/landing-page.png",
     description: "A landing page format using flexbox.",
     liveUrl: "https://jbentleyd-png.github.io/practiceLanding/",
     repoUrl: "https://github.com/jbentleyd-png/practiceLanding",
@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     name: "Rock Paper Scissors",
-    screenshot: "./screenshots/janken.png",
+    screenshot: "./screenshots/foundations/janken.png",
     description: "JS-powered Rock Paper Scissors vs your browser.",
     liveUrl: "https://jbentleyd-png.github.io/jankenpon/",
     repoUrl: "https://github.com/jbentleyd-png/jankenpon",
@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     name: "Etch-a-Sketch",
-    screenshot: "./screenshots/etch-a-sketch.png",
+    screenshot: "./screenshots/foundations/etch-a-sketch.png",
     description: "Using DOM manipulation to make a drawing UI.",
     liveUrl: "https://jbentleyd-png.github.io/etch-a-sketch/",
     repoUrl: "https://github.com/jbentleyd-png/etch-a-sketch",
@@ -33,7 +33,7 @@ export const projects = [
   },
   {
     name: "Calculator",
-    screenshot: "./screenshots/calculator.png",
+    screenshot: "./screenshots/foundations/calculator.png",
     description: "JS-powered calculator that takes ENG and JP input.",
     liveUrl: "https://jbentleyd-png.github.io/calculator/",
     repoUrl: "https://github.com/jbentleyd-png/calculator",
