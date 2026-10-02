@@ -43,123 +43,91 @@ export const projects = [
 
   // RUBY:
   {
-    name: "Caesar Cipher",
+    name: "Basic Ruby Puzzles",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "./demos/ruby/caesar.html", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
-    category: "ruby",
-  },
-  {
-    name: "Sub Strings",
-    screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
-    category: "ruby",
-  },
-  {
-    name: "Stock Picker",
-    screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
-    category: "ruby",
-  },
-  {
-    name: "Bubble Sort",
-    screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "Four mini-projects solving beginner CS problems.",
+    liveUrl: "./demos/ruby/basics.html",
+    repoUrl: "https://github.com/jbentleyd-png/ruby_basic_projects",
     category: "ruby",
   },
   {
     name: "Tic Tac Toe",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "Using OOP to create a two-player tic tac toe game.",
+    liveUrl: "./demos/ruby/janken.html",
+    repoUrl: "https://github.com/jbentleyd-png/tic_tac_toe",
     category: "ruby",
   },
   {
     name: "Mastermind",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "Another OOP project to practice Ruby skills.",
+    liveUrl: "./demos/ruby/mastermind.html",
+    repoUrl: "https://github.com/jbentleyd-png/mastermind",
     category: "ruby",
   },
   {
     name: "Hangman",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
-    category: "ruby",
-  },
-  {
-    name: "Custom Enumerables",
-    screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "Play save-able games with file serialization.",
+    liveUrl: "./demos/ruby/hangman.html",
+    repoUrl: "https://github.com/jbentleyd-png/hangman",
     category: "ruby",
   },
   {
     name: "Connect Four",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "Built with Test-Driven Development.",
+    liveUrl: "./demos/ruby/connect-four.html",
+    repoUrl: "https://github.com/jbentleyd-png/tdd_connect_four",
     category: "ruby",
   },
   {
     name: "Recursion",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "Creating fibonacci sequence and merge sort recursively.",
+    liveUrl: "./demos/ruby/recursion.html",
+    repoUrl: "https://github.com/jbentleyd-png/recursion_project",
     category: "ruby",
   },
   {
     name: "Linked Lists",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "Learning about Data Structures in ruby.",
+    liveUrl: "./demos/ruby/linked-lists.html",
+    repoUrl: "https://github.com/jbentleyd-png/Linked-list-ruby",
     category: "ruby",
   },
   {
     name: "HashMap",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "Learning more about Data Structures in ruby.",
+    liveUrl: "./demos/ruby/hashmap.html",
+    repoUrl: "https://github.com/jbentleyd-png/hash_map",
     category: "ruby",
   },
   {
-    name: "Binary Search Trees",
+    name: "Binary Search Tree",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "A self-balancing BST to learn DSA.",
+    liveUrl: "./demos/ruby/bst.html",
+    repoUrl: "https://github.com/jbentleyd-png/bst_project",
     category: "ruby",
   },
   {
     name: "Knight's Travails",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "Optimizing Knight routes across a chessboard.",
+    liveUrl: "./demos/ruby/knights-travails.html",
+    repoUrl: "https://github.com/jbentleyd-png/Knights_Travails",
     category: "ruby",
   },
   {
     name: "Chess",
     screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Explanation, please.",
-    liveUrl: "https://jbentleyd-png.github.io/calculator/", //please update
-    repoUrl: "https://github.com/jbentleyd-png/calculator", //please update
+    description: "My capstone project for the Odin: Ruby course.",
+    liveUrl: "./demos/ruby/chess.html",
+    repoUrl: "https://github.com/jbentleyd-png/chess_project",
     category: "ruby",
   },
 
