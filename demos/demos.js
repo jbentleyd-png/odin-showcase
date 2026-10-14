@@ -2,14 +2,13 @@ export const demos = [
   // RUBY:
   {
     title: "Basic Ruby Puzzles",
-    video: "./videos/demo.mp4", // relative to HMTL's path, not this file
-    github:
-      "https://github.com/jbentleyd-png/ruby_basic_projects/blob/main/cc.rb",
-    description: `"Imagine we had a decently long description. We explain the technology, the underlying concepts, and any hiccups we encountered. Could just be a copy of the README, for that matter. Nah, let's make it shorter than the README. People can just go read that thing itself.`,
+    video: "https://www.youtube.com/embed/hxYVrjAcMdg&t=7s",
+    github: "https://github.com/jbentleyd-png/ruby_basic_projects",
+    description: `Four mini-projects using ruby to solve beginner CS problems.`,
   },
   {
     title: "Tic Tac Toe",
-    video: "./videos/demo.mp4",
+    video: "./videos/demo.mp4", // relative to HMTL's path, not this file
     github: "https://github.com/jbentleyd-png/tic_tac_toe",
     description: `Using Ruby and OOP to create a two-player tic tac toe game.`,
   },

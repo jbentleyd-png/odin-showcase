@@ -13,6 +13,11 @@ header {
   margin-bottom: 50px;
 }
 
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
 #demo-video {
   max-width: 1080px;
 }
