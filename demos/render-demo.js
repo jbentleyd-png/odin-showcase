@@ -20,9 +20,6 @@ function renderDemoPage(selectedDemo) {
   const space = document.createElement("br");
   link.appendChild(space);
   link.appendChild(youtube);
-
-  const description = document.querySelector("#demo-description");
-  description.textContent = selectedDemo.description;
 }
 
 renderDemoPage(selectedDemo);
