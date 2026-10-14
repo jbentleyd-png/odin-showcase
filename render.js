@@ -12,7 +12,9 @@ function createCard(project) {
 
   const screenshot = document.createElement("img");
   screenshot.src = project.screenshot;
-  screenshot.alt = `screenshot of the ${title} project`;
+  screenshot.alt = `screenshot of the ${title} project, clickable as a link to the demo page or live site`;
+  screenshot.onclick = () => (window.location.href = `${project.liveUrl}`); // arrow function to not run on load
+  screenshot.style = "cursor: pointer;";
 
   const desc = document.createElement("p");
   desc.textContent = project.description;
