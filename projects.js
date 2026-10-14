@@ -44,7 +44,7 @@ export const projects = [
   // RUBY:
   {
     name: "Basic Ruby Puzzles",
-    screenshot: "./screenshots/ruby/placeholder.png",
+    screenshot: "./screenshots/ruby/basics.png",
     description: "Four mini-projects solving beginner CS problems.",
     liveUrl: "./demos/ruby/basics.html",
     repoUrl: "https://github.com/jbentleyd-png/ruby_basic_projects",
@@ -52,15 +52,15 @@ export const projects = [
   },
   {
     name: "Tic Tac Toe",
-    screenshot: "./screenshots/ruby/placeholder.png",
+    screenshot: "./screenshots/ruby/tic-tac-toe.png",
     description: "Using OOP to create a two-player tic tac toe game.",
-    liveUrl: "./demos/ruby/janken.html",
+    liveUrl: "./demos/ruby/tic_tac_toe.html",
     repoUrl: "https://github.com/jbentleyd-png/tic_tac_toe",
     category: "ruby",
   },
   {
     name: "Mastermind",
-    screenshot: "./screenshots/ruby/placeholder.png",
+    screenshot: "./screenshots/ruby/mastermind.png",
     description: "Another OOP project to practice Ruby skills.",
     liveUrl: "./demos/ruby/mastermind.html",
     repoUrl: "https://github.com/jbentleyd-png/mastermind",

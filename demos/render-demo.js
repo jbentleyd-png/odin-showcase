@@ -12,6 +12,15 @@ function renderDemoPage(selectedDemo) {
   const link = document.querySelector("#github");
   link.href = selectedDemo.github;
 
+  const youtube = document.createElement("a");
+  youtube.href = selectedDemo.youtube;
+  youtube.alt = "A link to the demo video on YouTube.";
+  youtube.textContent = "YouTube";
+
+  const space = document.createElement("br");
+  link.appendChild(space);
+  link.appendChild(youtube);
+
   const description = document.querySelector("#demo-description");
   description.textContent = selectedDemo.description;
 }
