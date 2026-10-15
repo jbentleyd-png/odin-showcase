@@ -68,7 +68,7 @@ export const projects = [
   },
   {
     name: "Hangman",
-    screenshot: "./screenshots/ruby/placeholder.png",
+    screenshot: "./screenshots/ruby/hangman.png",
     description: "Play save-able games with file serialization.",
     liveUrl: "./demos/ruby/hangman.html",
     repoUrl: "https://github.com/jbentleyd-png/hangman",
@@ -76,7 +76,7 @@ export const projects = [
   },
   {
     name: "Chess",
-    screenshot: "./screenshots/ruby/placeholder.png",
+    screenshot: "./screenshots/ruby/chess.png",
     description: "My capstone project for the Odin: Ruby course.",
     liveUrl: "./demos/ruby/chess.html",
     repoUrl: "https://github.com/jbentleyd-png/chess_project",

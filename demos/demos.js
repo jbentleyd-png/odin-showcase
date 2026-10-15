@@ -20,14 +20,14 @@ export const demos = [
   },
   {
     title: "Hangman",
-    video: "./videos/demo.mp4",
+    video: "./videos/hangman.mp4",
     github: "https://github.com/jbentleyd-png/hangman",
-    youtube: null,
+    youtube: "https://youtu.be/AhjARzz-0Js",
   },
   {
     title: "Chess",
-    video: "./videos/demo.mp4",
+    video: "./videos/chess.mp4",
     github: "https://github.com/jbentleyd-png/chess_project",
-    youtube: null,
+    youtube: "https://youtu.be/GjKoca_IgBc",
   },
 ];
