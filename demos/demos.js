@@ -25,12 +25,6 @@ export const demos = [
     youtube: null,
   },
   {
-    title: "Connect Four",
-    video: "./videos/demo.mp4",
-    github: "https://github.com/jbentleyd-png/tdd_connect_four",
-    youtube: null,
-  },
-  {
     title: "Chess",
     video: "./videos/demo.mp4",
     github: "https://github.com/jbentleyd-png/chess_project",

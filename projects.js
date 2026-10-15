@@ -75,14 +75,6 @@ export const projects = [
     category: "ruby",
   },
   {
-    name: "Connect Four",
-    screenshot: "./screenshots/ruby/placeholder.png",
-    description: "Built with Test-Driven Development.",
-    liveUrl: "./demos/ruby/connect-four.html",
-    repoUrl: "https://github.com/jbentleyd-png/tdd_connect_four",
-    category: "ruby",
-  },
-  {
     name: "Chess",
     screenshot: "./screenshots/ruby/placeholder.png",
     description: "My capstone project for the Odin: Ruby course.",
