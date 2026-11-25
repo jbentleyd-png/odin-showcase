@@ -94,8 +94,14 @@ main h1 {
 
 .rails-section {
   margin-bottom: 50px;
+  display: block;
+}
+
+.rails-section ul {
+  list-style-type: none;
 }
 
 .rails-section li {
   font-size: larger;
+  font-weight: bold;
 }
