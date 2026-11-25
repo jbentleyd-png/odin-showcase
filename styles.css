@@ -67,3 +67,8 @@ main h1 {
   color: white;
   margin: 5px;
 }
+
+.rails-section li {
+  font-size: larger;
+  margin-bottom: 50px;
+}
